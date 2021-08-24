@@ -1,0 +1,122 @@
+.alineanavbar{
+    margin: 0 0 0 40%;
+}
+
+.posicarru{
+    margin-top: -57px;
+    z-index: -1;
+}
+
+section{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: #E5E7E8;
+    padding: 50px;
+    
+}
+
+
+hr{
+    color: #33A3D4;
+    border-color: #33A3D4;
+    width: 80%;
+    height: 5px;
+}
+
+.descrip{
+    font-size: 0.4em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+i {
+    width: 80%;
+    background-color: #33A3D4;
+    height: 15%;
+}
+
+p {
+    padding: 10px;
+    margin: 20px;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    color: #E5E7E8;
+    padding: 20px;
+}
+
+.card {
+    margin: 10px;
+    color: #E5E7E8;
+}
+
+.card-body {
+    background-color: #33A3D4;
+    font-size: 0.8rem;
+}
+
+.card-text{
+    text-align: left;
+}
+
+aside {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #33A3D4;
+    color: #E5E7E8;
+    font-size: 1.2em;
+    width: 100%;
+    display: flex;
+   
+}   
+
+  
+.futer{
+    width: 100%;
+    padding: 5px;
+    display: inline-flex;
+    text-align:center;
+    align-items: center;
+}
+
+#cabecera_destacado{
+    background-color: #33A3D4;
+    text-align: center;
+}
+
+#cabeceracontacto {
+    background-color: #33A3D4;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+
+#cabecera_somos{
+    background-color: #33A3D4;
+    text-align: center;
+}
+
+.titulo_contacto{
+    color: white;
+    height: 150px;
+    text-align: center;
+}

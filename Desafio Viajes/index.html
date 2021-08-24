@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Francisco Chimbo">
+    <title>Desafio Viajes Chile</title>
+<!--script de CSS de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!--Script de FontAwesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<!--Script de Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!--Script de Favicon-->
+    <link rel="shortcut icon" href="assets/favicon/viajes.svg" type="image/x-icon">
+<!--Metaeqtiquetas de Descripcion-->
+    <meta name="autor" content="FranchuJavier">
+    <meta name="descripcion" content="Landing Page de Viajes Chile">
+    <meta name="keywords" content="viajes, eventos, entretenimento, relax">
+    <!--Hoja de Estilo Propio-->    
+    <link rel="stylesheet" href="assets/css/style.css">
+  
+</head>
+<body>
+<!--Barra de navegacion-->    
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/favicon/viajes.svg" alt="" width="30" height="24">  
+            Viajes Chile</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse alineanavbar" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./assets/html/somos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="assets/html/destacados.html">Destacados</a>
+                <li class="nav-item">
+                <a class="nav-link" href="assets/html/contacto.html">Contacto</a>
+                  </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!--Carrousel-->     
+<header>
+    <div id="carouselExampleControls" class="carousel slide posicarru" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/card1.jpg" class="d-block w-100" alt="Img1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Img2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Img3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previo</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+</header>
+
+<!--Seccion Quienes Somos-->
+<section>
+    <h1>¿Quienes Somos?</h>
+    <hr>
+        <div class="container descrip">
+                <div class="CAJA1">
+                    <i class="fas fa-fighter-jet fa-2x"></i>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed odit, voluptatum illo aliquid earum ex tempore totam repellat saepe alias quo veritatis velit debitis id quaerat iure? Tenetur, error non? Sed odit, voluptatum illo aliquid earum ex tempore totam repellat saepe alias quo veritatis velit debitis id quaerat iure? Tenetur, error non?</P>
+                </div>
+                <div class="CAJA2">
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. A est et consequatur officia quaerat unde, possimus quod ratione eaque omnis non dignissimos porro error in modi molestiae deleniti eum quis? Sed odit, voluptatum illo aliquid earum ex tempore totam repellat saepe alias quo veritatis velit debitis id quaerat iure? Tenetur, error non?
+                    </P>
+                    <i class="fas fa-mountain fa-2x"></i>
+                </div>
+                <div class="CAJA3">
+                    <i class="fas fa-route fa-2x"></i>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis deserunt nesciunt possimus, labore obcaecati repellendus accusantium dolorem tenetur est voluptatum sed! Ipsa ut fugiat laborum totam saepe illum eveniet est? Sed odit, voluptatum illo aliquid earum ex tempore totam repellat saepe alias quo veritatis velit debitis id quaerat iure? Tenetur, error non?</P>
+                </div>
+        </div>
+
+<!--Destacados-->
+    <h2>Destacados</h2>
+    <hr>
+    <div class="container descrip">
+    <div class="card" style="width: 18rem;">
+        <img src="assets/img/card1.jpg" class="card-img-top" alt="card1">
+        <div class="card-body">
+          <h5 class="card-title">Tour Playa</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="assets/img/card2.jpg" class="card-img-top" alt="card2">
+        <div class="card-body">
+          <h5 class="card-title">Tour Nevados </h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="assets/img/card3.jpg" class="card-img-top" alt="card3">
+        <div class="card-body">
+          <h5 class="card-title">Tour Lagos</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="assets/img/card4.jpg" class="card-img-top" alt="card4">
+        <div class="card-body">
+          <h5 class="card-title">Tour Selva</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+</section>
+
+<aside>
+    <h3>Gracias por contactarnos</h3>
+    <button data-tf-slider="qJUZS7xC" data-tf-width="550" style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0445AF;font-size:20px;border-radius:25px;color:#fff;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;">Comenzar</button><script src="//embed.typeform.com/next/embed.js"></script>
+</aside>
+
+<footer>
+    
+        <p>Viajes Chile</p>
+    
+    <div class="container futer"> 
+        <i class="fab fa-github-square fa-2x"></i>
+        <i class="fab fa-linkedin fa-2x"></i>
+        <i class="fab fa-twitter-square fa-2x"></i>
+        <i class="fab fa-facebook-square 
+        fa-2x"></i>
+    </div>     
+
+</footer>
+
+
+<!---Script de Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
